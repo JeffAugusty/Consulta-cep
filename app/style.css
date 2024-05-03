@@ -1,0 +1,81 @@
+body {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    background: #000;
+    color: #000;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+#app {
+    background: #3399ff;
+    border-radius: 0.4rem;
+    padding: 1.5rem 0rem;
+    box-shadow: 2px 8px 11px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+    justify-items: center;
+}
+
+form input {
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #000;
+    width: 120px;
+    outline: none;
+    padding: 0;
+}
+
+form input::placeholder {
+    color: #000;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    color: #000;
+    border-radius: 5rem;
+    border: none;
+    width: max-content;
+    font-size: 1.3rem;
+    background: linear-gradient(to right, #4091dd, #28b4d2);
+    font-weight: 100;
+    outline: none;
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transition: all 1s;
+}
+
+p:nth-child(1) {
+    padding-top: 1.3rem;
+}
+
+p {
+    color: #000;
+    font-size: 1.1rem;
+    margin: 0.6rem 0;
+}
+
+footer {
+    background-color: #e8e8e8; /* Cor de fundo cinza claro */
+    padding: 8;             /* Adiciona espaçamento interno ao rodapé */
+    text-align: center;        /* Centraliza o texto do rodapé */
+    position: fixed;           /* Fixa o rodapé na parte inferior da tela */
+    bottom: 0;                 
+    width: 100%;               /* O rodapé ocupa toda a largura da tela */
+  }
+  
+  

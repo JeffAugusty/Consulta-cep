@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta CEP - ViaCEP</title>
+  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Consulta de CEP</h1>
+        <div class="container">
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" placeholder="Digite o CEP">
+            <button id="btnConsultar">Consultar</button>
+        </div>
+        <div class="resultado" id="resultado">
+            <h2>Resultado da Consulta</h2>
+            <p>Logradouro: <span id="logradouro"></span></p>
+            <p>Bairro: <span id="bairro"></span></p>
+            <p>Cidade: <span id="cidade"></span></p>
+            <p>Estado: <span id="estado"></span></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Jeferson Augusto 2024</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
